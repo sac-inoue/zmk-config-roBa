@@ -112,8 +112,8 @@
         default_layer0 {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))               &kp ESCAPE     &kp H        &kp J  &kp K      &kp L    &kp DOUBLE_QUOTES
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp COLON                   &kp MINUS      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))               &kp ESCAPE     &kp H        &kp J  &kp K      &kp L    &kp JP_DQUOTE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp JP_COLON                &kp MINUS      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANG1  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
@@ -133,10 +133,10 @@
 
         NUM2 {
             bindings = <
-&kp EQUAL                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp COLON                    &kp SEMI        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                   &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp JP_EQUAL                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS                                                 &kp JP_CARET         &kp JP_AMPERSAND      &kp JP_TILDE       &kp JP_LPAREN  &kp JP_RPAREN
+&kp SLASH                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_ASTERISK  &kp LC(LA(NUMBER_0))      &kp JP_UNDERSCORE  &kp EXCLAMATION      &kp JP_AT          &kp HASH           &kp DOLLAR     &kp PERCENT
+&mt LEFT_SHIFT NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp JP_COLON              &kp SEMI           &kp JP_LBRACKET      &kp JP_RBRACKET    &kp JP_LBRACE      &kp JP_RBRACE  &kp JP_YEN
+&trans                      &trans        &trans        &trans        &trans           &trans                    &trans             &trans                                                                     &kp JP_PIPE
             >;
         };
 

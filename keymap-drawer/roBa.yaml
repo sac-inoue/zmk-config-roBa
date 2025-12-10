@@ -22,14 +22,14 @@ layers:
   - J
   - K
   - L
-  - ''''
+  - '"'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - ':'
-  - ;
+  - '-'
   - N
   - M
   - ','
@@ -89,7 +89,7 @@ layers:
   - {type: held}
   - F12
   NUM:
-  - '-'
+  - '='
   - '7'
   - '8'
   - '9'
@@ -116,8 +116,8 @@ layers:
   - '2'
   - '3'
   - .
-  - '='
-  - {t: ▽, type: trans}
+  - ':'
+  - ;
   - '['
   - ']'
   - '{'
@@ -314,7 +314,7 @@ combos:
 - p: [12, 13]
   k: Sft+TAB
 - p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
+  k: '&to_layer_0 LANGUAGE_1'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]

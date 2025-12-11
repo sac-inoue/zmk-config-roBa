@@ -54,32 +54,32 @@
 / {
     combos {
         compatible = "zmk,combos";
-
+    
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp TAB>;j
             key-positions = <11 12>;
         };
-
+    
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
-
+    
         muhennkann {
-            bindings = <&to_layer_0 LANGUAGE_1>;
+            bindings = <&to_layer_0 JP_KANA>;
             key-positions = <11 10>;
         };
-
+    
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp JP_DQUOTE>;
             key-positions = <20 21>;
         };
-
+    
         eq {
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_EQUAL>;
             key-positions = <24 25>;
         };
-
+    
         ESCape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;

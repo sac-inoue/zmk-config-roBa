@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: roBa}
 layers:
-  default:
+  default_layer0:
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - A
+  - {t: A, h: CAPS}
   - S
   - D
   - F
@@ -22,13 +22,13 @@ layers:
   - J
   - K
   - L
-  - '"'
+  - '@'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - ':'
+  - ''''
   - '-'
   - N
   - M
@@ -38,13 +38,13 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 LANG1', h: '6'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LANG2', h: ARROW}
+  - {t: '&to_layer_0 LANG1', h: BT6}
+  - {t: '&to_layer_0 LANGUAGE_2', h: ARROW3}
+  - {t: SPACE, h: NUM2}
   - BACKSPACE
-  - {t: ENTER, h: FUNCTION}
+  - {t: ENTER, h: FUNCTION1}
   - DEL
-  FUNCTION:
+  FUNCTION1:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,26 +88,26 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - F12
-  NUM:
-  - '='
+  NUM2:
+  - _
   - '7'
   - '8'
   - '9'
-  - +
+  - ':'
+  - '='
   - ^
-  - '&'
-  - '~'
+  - +
+  - '*'
   - (
-  - )
   - /
   - '4'
   - '5'
   - '6'
-  - '*'
-  - Ctl+Alt+KP 0
-  - _
+  - '"'
+  - Ctl+Alt+0
+  - Sft+0x87
   - '!'
-  - '@'
+  - '['
   - '#'
   - $
   - '%'
@@ -116,13 +116,14 @@ layers:
   - '2'
   - '3'
   - .
-  - ':'
+  - ''''
   - ;
-  - '['
   - ']'
-  - '{'
-  - '}'
   - \
+  - '}'
+  - '|'
+  - '0x89'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,9 +131,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
-  ARROW:
+  - Sft+0x89
+  ARROW3:
   - ESCAPE
   - Ctl+Sft+TAB
   - UP ARROW
@@ -171,17 +171,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
+  - {t: ▽, type: trans}
+  MOUSE4:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_UP'
@@ -190,8 +190,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,7 +264,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '6':
+  BT6:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -316,8 +316,8 @@ combos:
 - p: [11, 10]
   k: '&to_layer_0 LANGUAGE_1'
 - p: [20, 21]
-  k: '"'
+  k: '@'
 - p: [24, 25]
-  k: '='
+  k: _
 - p: [0, 1]
   k: ESCAPE

@@ -71,7 +71,7 @@
         };
 
         double_quotation {
-            bindings = <&kp JP_DQUOTE>;
+            bindings = <&kp JP_QUOTE>;
             key-positions = <20 21>;
         };
 

@@ -134,7 +134,7 @@
         NUM2 {
             bindings = <
 &kp JP_EQUAL             &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS                                                   &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_TILDE   &kp JP_LPAREN  &kp JP_RPAREN
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_ASTERISK  &kp LC(LA(NUMBER_0))      &kp JP_UNDERSCORE  &kp EXCLAMATION  &kp JP_AT         &kp HASH       &kp DOLLAR     &kp PERCENT
+&kp QUESTION             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_ASTERISK  &kp LC(LA(NUMBER_0))      &kp JP_UNDERSCORE  &kp EXCLAMATION  &kp JP_AT         &kp HASH       &kp DOLLAR     &kp PERCENT
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp JP_COLON              &kp SEMI           &kp JP_LBRACKET  &kp JP_RBRACKET   &kp JP_LBRACE  &kp JP_RBRACE  &kp JP_YEN
 &trans                   &trans        &trans        &trans        &trans           &trans                    &trans             &trans                                                           &kp JP_PIPE
             >;

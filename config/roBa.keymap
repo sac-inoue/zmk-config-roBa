@@ -57,7 +57,6 @@
 
         tab {
             bindings = <&kp TAB>;
-            j
             key-positions = <11 12>;
         };
 
